@@ -1,0 +1,12 @@
+# Format Style Options - Created with Clang Power Tools
+---
+BasedOnStyle: Google
+AllowShortIfStatementsOnASingleLine: WithoutElse
+AlwaysBreakTemplateDeclarations: Yes
+BraceWrapping: 
+  AfterFunction: false
+  AfterStruct: false
+DerivePointerAlignment: true
+SpacesBeforeTrailingComments: 2
+IndentWidth: 4
+...

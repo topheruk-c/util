@@ -3,7 +3,13 @@
 
 #define EXPORT __attribute__((__visibility__("default")))
 
-typedef enum { SUM, SUB, MULT, DIV } operation;
+typedef enum
+{
+    SUM,
+    SUB,
+    MULT,
+    DIV
+} operation;
 
 typedef struct {
     int error;
